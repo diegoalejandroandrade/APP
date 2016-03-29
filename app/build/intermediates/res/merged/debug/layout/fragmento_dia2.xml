@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:scrollbars="none"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt1Frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#669900"
+            android:gravity="center"
+            android:text="Dia 2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_desayuno_frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ipsemlorum"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_colacion1_frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ipsemlorum"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_comida_frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ipsemlorum"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_colacion2_frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ipsemlorum"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_cena_frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ipsemlorum"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>
